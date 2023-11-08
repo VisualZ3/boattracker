@@ -17,15 +17,16 @@ public class Boat {
     }
  
     public double getBoatPrice() {
-     
+        return boatPrice;
+    }
 
      
     public void addUser(Employee employee){
-	this.users.add(employee);
+	    this.users.add(employee);
     }
 
     public void removeUser(Employee employee){
-	this.users.remove(employee);
+	    this.users.remove(employee);
     }
 
 }
